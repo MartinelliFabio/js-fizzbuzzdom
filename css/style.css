@@ -1,0 +1,56 @@
+/* ! Utility */
+:root {
+    --bg: #dad7cd;
+    --element: #a3b18a;
+    --fizz: #588157;
+    --buzz: #3a5a40;
+    --fizzbuzz: #344e41;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+/* ! CSS Navbar */
+.navbar {
+    background-color: var(--element);
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* ! CSS del container fizzbuzz */
+.container-fizzbuzz {
+    margin-top: 120px;
+}
+
+.container-fizzbuzz>div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* ! CSS dei vari container a seconda del valore (Fizz, Buzz, FizzBuzz o numero normale) */
+.div-fizzbuzz {
+    background-color: var(--fizzbuzz);
+}
+
+.div-fizz {
+    background-color: var(--fizz);
+}
+
+.div-buzz {
+    background-color: var(--buzz);
+}
+
+.div-element {
+    background-color: var(--element);
+}
